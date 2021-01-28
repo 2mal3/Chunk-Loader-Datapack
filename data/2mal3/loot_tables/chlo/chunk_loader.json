@@ -1,27 +1,19 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:blackstone",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{ctc:{id:\"chunk_loader\",from:\"2mal3:chunk_loader\",traits:{\"2mal3:chunk_loader\":1b,\"item\":1b}}}"
-              },
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:3330201}"
-              },
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Chunk Loader\",\"italic\":false}'}}"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Chunk Loader\",\"italic\":false}'},ctc:{id:\"chunk_loader\",from:\"2mal3:chunk_loader\",traits:[\"block\",\"chunk_loader\"]},CustomModelData:333008,EntityTag:{NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:[\"chlo.place\",\"global.ignore\"]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
