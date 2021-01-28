@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block": "minecraft:blackstone",
+          "item": {
+            "item": "minecraft:blackstone",
+            "nbt": "{ctc:{traits:{\"2mal3:chunk_loader\":1b}}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "2mal3:chlo/placed/placed"
+    }
+  }
